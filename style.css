@@ -1,0 +1,46 @@
+body {
+    background: aliceblue;
+    min-width: 666px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.image {
+    border: 2px black solid;
+    border-radius: 10px;
+    margin: 20px 20px 0px 20px;
+    float: left;
+    min-width: 400px;
+    max-width: 666px;
+}
+.heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 377%;
+    margin: 10px; 
+    clear: both;
+}
+.content {
+    margin: 20px 10px 10px 10px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 150%;
+}
+.article {
+    background: whitesmoke;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    animation: shadowColor 10s infinite;
+    animation-direction: alternate;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+@keyframes shadowColor {
+  from {box-shadow: 10px 6px #000000;}
+  to {box-shadow: 10px 6px #AAAAAA;}
+}
